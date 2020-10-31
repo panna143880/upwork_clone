@@ -1,0 +1,862 @@
+*/ padding: 0px;
+margin: 0px;
+
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/gotham-medium.woff2);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/gotham-regular.woff2);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/canela-deck-bold.woff2);
+}
+.my_container {
+    width: 86%;
+    margin: auto;
+}
+.navbar a img {
+    width: 140px;
+}
+.navbar {
+    background: white !important;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* header end */
+
+/* main menu start */
+.search_box1 .form-control {
+    width: 160%;
+}
+.search_box1 .form-control:hover {
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.primary_menu ul li {
+    margin: 0 15px;
+}
+.primary_menu ul li:hover ul.dropdown_menu {
+    visibility: visible;
+    opacity: 1;
+}
+.primary_menu ul li a {
+    color: #A7A7A7;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+.primary_menu ul li:hover a {
+    color: #6FDA44;
+}
+.sign_up_button {}
+.sign_up_button button {
+    background-color: #5BBC2E;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 15px;
+    color: #fff;
+}
+ul .dropdown_menu {
+    position: absolute;
+    background: #fff;
+    top: 110%;
+    border: 1px solid #ddd;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease;
+}
+ul .dropdown_menu li a {}
+.dropdown_menu::before {
+    content: "";
+    background: #FFFFFF;
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    top: -9px;
+    transform: rotate(45deg);
+    z-index: 0;
+    border-top: 1px solid#ddd;
+    border-left: 1px solid #ddd;
+}
+.dropdown_menu ul li {
+    list-style: none;
+}
+.dropdown_menu ul li::marker {
+    unicode-bidi: inherit;
+    font-variant-numeric: inherit;
+    text-transform: inherit;
+}
+.dropdown_menu ul li a {}
+
+/* main menu end */
+
+/* menu start  */
+.menu {
+    background: #f9f9f9;
+}
+.menu ul li a {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+.menu ul li a:hover {
+    color: #318250;
+    text-decoration: underline;
+}
+.carousel-caption {
+    position: absolute;
+    right: 16.5%;
+    bottom: 1.25rem;
+    left: 16.5%;
+    padding: 100px 0;
+    color: #fff;
+    height: 100%;
+    text-align: left;
+}
+
+/* menu end  */
+.banner_item {
+    max-height: 450px;
+    background: url(../images/lg.webp);
+    padding: 50px 0;
+    background-size: cover!important;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/* slider start */
+.banner_first h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #6FDA44;
+}
+.banner_first .second_hedding {
+    color: #fff;
+}
+.banner_first h1 sup {
+    font-size: 15px;
+    font-weight: 400;
+}
+.banner_first p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: tahoma;
+    margin: 35px 0;
+    color: #fff;
+}
+.banner_first .btn1 {
+    border-radius: 4px;
+    margin-right: 20px;
+    padding: 8px 30px;
+    font-size: 15px;
+}
+.slider_bottom_text {
+    padding-top: 56%;
+}
+
+/* banner end */
+.box_section {
+    background-color: #F9F9F9;
+}
+
+/* box_section_end */
+
+/* categories_section */
+.categories_section {
+    background-color: #F9F9F9;
+}
+.categories p {
+    font-size: 14px;
+    text-align: center;
+}
+.categories a {
+    color: #1F8329;
+}
+
+/* for mobile */
+.mcategory_card {
+    background-color: #F9F9F9;
+    padding-bottom: 20px;
+}
+section.mcategory_card {
+    margin-top: -40px;
+}
+.mcategory_card h2 {
+    line-height: 24px;
+    font-size: 20px;
+    padding: 25px 0;
+    color: #222;
+    font-family: inherit;
+    text-align: left;
+}
+.mcategory_card option {
+    font-weight: 600;
+}
+.mcategory_card select#select_option {
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    height: inherit;
+}
+.form-select:focus {
+    box-shadow: none;
+}
+.mcategory_card span {
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #222;
+    margin-top: 20px;
+    display: block;
+}
+.mcategory_card a {
+    color: #37A000;
+    transition: all .3s ease;
+}
+.mcategory_card a:hover {
+    text-decoration: underline;
+}
+
+/* desktop hire project section */
+.hire_project {
+    background-color: #F9F9F9;
+}
+.hire_second_box span {
+    width: 29px;
+    display: inline-block;
+    height: 6px;
+    background-color: #5BBC2E;
+}
+.hire_second_box p {
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 90%;
+}
+.hire_second_box {
+    position: relative;
+}
+.hire_second_box::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 120px;
+    height: 0.5px;
+    border: .5px solid #E9EBEC;
+    transform: rotate(90deg);
+    top: 47%;
+    left: 70%;
+}
+.third_box::after {
+    background-color: white;
+    border: 0px;
+}
+
+/* for mobile */
+.hire_mobile_section .third_box p {
+    border-bottom: 1px solid #ddd;
+}
+
+/* for mobile end*/
+
+/* microsoft img section */
+.microsoft h5 {
+    font-size: 18px;
+}
+
+/* work section */
+.work_section img {
+    width: 115px;
+    margin-bottom: 20px;
+}
+.work_section h6 {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+.work_section p {
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+/* for mobile */
+.mhow_it_work {
+    padding: 0;
+}
+.mhow_it_work li {
+    list-style: decimal;
+    font-weight: 600;
+}
+.mhow_it_work h5 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #000;
+    padding: 7px 0;
+}
+.mhow_it_work p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #222;
+    font-weight: 400;
+}
+
+/* offer section */
+.offer {
+    background-color: #f9f9f9;
+    display: block;
+}
+.offer {}
+.pricing_bottom span {
+    color: black;
+}
+.pricing_bottom ul li {
+    font-size: 14px;
+}
+.pricing_bottom a {
+    padding-left: 32px;
+    font-size: 15px;
+}
+.height {
+    height: 520px;
+}
+
+/* offer section end */
+
+/* fivestar section start */
+.fivestar .my_container {
+    width: 65%;
+}
+.review {
+    color: #D5763D;
+}
+
+/* for mobile */
+.fivestar {
+    padding: 50px 55px;
+}
+.star_1 {
+    text-align: right;
+}
+.star_1 h3 {
+    color: #7f7f7f;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.star_1 span {}
+.star_4 {
+    text-align: left;
+}
+.star_3 h4 {
+    color: #7f7f7f;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.star_3 span {
+    color: #d5763d;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.star_3 img {
+    margin-left: -42px;
+    margin-top: -30px;
+}
+
+/* fivestar section start end */
+
+/* video section start*/
+.video_container {
+    background-color: #494949;
+}
+.video_content {
+    padding-top: 116px;
+    padding-bottom: 80px;
+}
+.video_content h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-bottom: 18px;
+}
+.video_content h6 {
+    font-size: 16px;
+    color: #A0A0A0;
+    letter-spacing: .5px;
+    padding-bottom: 20px;
+}
+.co_founder_img img {}
+.co_founder_img p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #A0A0A0;
+}
+.co_founder_img h6 {
+    color: #A0A0A0;
+    font-size: 14px;
+}
+.video_content iframe {
+    border: 0;
+    width: 100%;
+    height: 313px;
+}
+
+/* for mobile */
+.mobile_video {
+    background-color: #494949!important;
+    padding-top: 30px;
+}
+.mvideo_container p,
+h6 {
+    color: #9EA091;
+}
+
+/* video section end*/
+
+/* top skills start */
+.top_skill ul li {
+    padding-bottom: 5px;
+}
+.top_skill ul li a {
+    color: black;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+.top_skill ul li a:hover {
+    color: #5F8329;
+    text-decoration: underline;
+}
+
+/* top skills end */
+
+/* Trending skills start */
+.Trending_skills ul li {
+    padding-bottom: 5px;
+}
+.Trending_skills ul li a {
+    color: black;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+.Trending_skills ul li a:hover {
+    color: #5F8329;
+    text-decoration: underline;
+}
+.Trending_skills .button {
+    width: 200px;
+    height: 41px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 22px -7px grey;
+    margin-top: 20px;
+}
+.Trending_skills .button:hover {
+    box-shadow: 2px 5px 9px 0px #888888;
+}
+.Trending_skills .button a {
+    color: #37A000;
+    font-weight: 500;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/* Trending skills end */
+
+/* Top Skills in US start */
+.top_skills_us ul li {
+    padding-bottom: 5px;
+}
+.top_skills_us ul li a {
+    color: black;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+.top_skills_us ul li a:hover {
+    color: #5F8329;
+    text-decoration: underline;
+}
+
+/* Top Skills in US end */
+
+/* Top Cities in US start*/
+.top_citiess ul li {
+    padding-bottom: 5px;
+}
+.top_cities ul li a {
+    color: black;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+.top_cities ul li a:hover {
+    color: #5F8329;
+    text-decoration: underline;
+}
+.top_cities .button {
+    width: 240px;
+    height: 41px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 22px -7px grey;
+    margin-top: 20px;
+}
+.top_cities .button:hover {
+    box-shadow: 2px 5px 9px 0px #888888;
+}
+.top_cities .button a {
+    color: #37A000;
+    font-weight: 500;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/* Trending skills end */
+
+/* Upwork Enterprise section start */
+.Enterprise {
+    box-shadow: 2px 1px 9px 0px #888888;
+}
+.Enterprise h6 {
+    padding-left: 64px;
+    color: #37A000;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.Enterprise h2 {
+    padding-left: 64px;
+    color: #1D4354;
+}
+.Enterprise button {
+    background-color: #37A000;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+}
+
+/* for mobile */
+.skill {
+    padding: 50px 0;
+}
+.skill h2 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.skill .skill_list {}
+.skill .skill_list ul {
+    padding: 0;
+}
+.skill .skill_list ul li {
+    list-style: none;
+    padding: 4px 0;
+}
+.skill .skill_list ul li a {
+    transition: all .3s ease;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
+}
+.skill .skill_list ul li a:hover {
+    text-decoration: underline;
+    color: #37A000;
+}
+.btn_skill {
+    text-align: center;
+}
+.skill_btn {
+    color: #37A000;
+    background-color: #fff;
+    transition: all .3s ease;
+    margin: 30px 0 50px 0;
+    padding: 8px 20px;
+}
+.skill_btn:hover {
+    color: #37A000;
+    -webkit-box-shadow: 0px 0px 22px -1px rgba(102, 97, 102, 1);
+    -moz-box-shadow: 0px 0px 22px -1px rgba(102, 97, 102, 1);
+    box-shadow: 0px 0px 22px -1px rgba(102, 97, 102, 1);
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+}
+.left_content {}
+.left_content h2 {
+    font-size: 32px;
+    color: #1d4354;
+}
+.left_content h4 {
+    color: #37a000;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: 500;
+    word-break: break-word;
+}
+.skill_bottom_btn {
+    transition: all .3s;
+    background-color: #37A000;
+    color: #fff;
+    border-radius: 0;
+    padding: 7px 25px;
+    font-weight: 600;
+}
+.skill_bottom_btn:hover {
+    background-color: #008329;
+    color: #fff;
+}
+.skill_bottom_btn:focus {
+    outline: 0;
+}
+.call_to_Action {
+    padding: 20px 100px;
+}
+.shadow {
+    box-shadow: 0 2px 10px 1px rgba(57, 73, 76, .4), 0 1px 2px rgba(57, 73, 76, .25)!important;
+}
+.skill_show_more {
+    transition: all .3s ease;
+    font-weight: 500;
+    font-size: 14px;
+    color: #37A000;
+    cursor: pointer;
+}
+.skill_show_more:hover {
+    text-decoration: underline;
+}
+
+/* footer section start  */
+.footer {
+    background-color: #1D4354;
+}
+.footer p {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.footer hr {
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+}
+.footer p a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.footer ul li h6 {
+    color: #FFFFFF;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.footer ul li a {
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+.footer_icon h6 {
+    color: #FFFFFF;
+    font-size: 13px;
+    letter-spacing: .5px;
+}
+.footer_icon ul li i {}
+.footer_icon ul li {
+    display: inline-block;
+    list-style: none;
+    background: #33627899;
+    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all .3s ease;
+}
+.footer_icon_two ul li {
+    display: inline-block;
+    list-style: none;
+    background: #33627899;
+    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all .3s ease;
+}
+
+/* footer section end */
+@media only screen and (min-width: 992px) {
+    .Enterprise button {
+        margin-left: 200px;
+    }
+}
+.Enterprise button:hover {
+    background-color: #008329;
+}
+
+/* for mobile */
+.mfooter .footer_top {
+    border-bottom: 0px solid #2b5468;
+}
+.footer .footer_menu {
+    margin: 15px;
+}
+.footer .footer_menu h4 {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 15px;
+}
+.footer .footer_menu ul {
+    padding: 0;
+}
+.footer .footer_menu ul li {
+    list-style: none;
+    padding: 4px 0px;
+}
+.footer .footer_menu ul li a {
+    color: #fff;
+    transition: all .3s ease;
+    font-weight: 400;
+    font-size: 15px;
+}
+.footer .footer_menu ul li a:hover {
+    text-decoration: underline;
+}
+.footer_social_menu {
+    border-top: 1px solid #2b5468;
+    border-bottom: 1px solid #2b5468;
+    padding: 5px 0;
+}
+.mfooter_social_menu {
+    border-top: 0px solid #2b5468;
+    border-bottom: 0px solid #2b5468 !important;
+}
+.footer .social_menu {
+    margin-right: auto;
+    display: inline-block;
+}
+.footer .social_menu span {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 13px;
+}
+.footer .social_menu ul {
+    padding: 0;
+}
+.footer .social_menu ul li {
+    list-style: none;
+    background: #33627899;
+    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+.footer .social_menu ul li:hover {
+    background-color: #336278fa;
+}
+.footer .social_menu ul li:nth-child(1) {
+    margin-left: 10px;
+}
+.footer .social_menu ul li a {
+    color: #fff;
+}
+.copyright_text {
+    padding: 25px 0;
+}
+.copyright_text p {
+    font-size: 15px;
+}
+
+/* Upwork Enterprise section end */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {
+        background: red;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .example {
+        background: green;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .example {
+        background: blue;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example {
+        background: orange;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .example {
+        background: pink;
+    }
+}
+.form-control {
+    width: 300px;
+    font-size: 14px;
+    padding: 20px;
+    padding-left: 43px;
+    font-family: tahoma;
+    margin-left: 4px;
+    letter-spacing: 1px;
+}
+.form-control:hover {
+    border: 1px solid #008329;
+    box-shadow: 2px 1px 5px #37A000 inset;
+}
+.src {
+    color: #37A000;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.down_arrow {
+    color: #37A000;
+    position: absolute;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
